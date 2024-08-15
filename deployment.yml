@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: go-docker-container
-        image: justynroberts/go-docker:latest  # Replace with your Docker Hub username and image tag
+        image: justynroberts/go-app:latest  # Replace with your Docker Hub username and image tag
         ports:
         - containerPort: 8080  # Port your Go application listens on
         env:
