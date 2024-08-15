@@ -1,11 +1,13 @@
 package main
 
 import (
-    "fmt"
-    "github.com/sirupsen/logrus"
+	"fmt"
+	"time"
 )
 
 func main() {
-    logrus.Info("Hello, World!")
-    fmt.Println("Hello, World!")
+	for {
+		fmt.Println("Hello, Docker!")
+		time.Sleep(1 * time.Second) // Pause for 1 second before the next output
+	}
 }
